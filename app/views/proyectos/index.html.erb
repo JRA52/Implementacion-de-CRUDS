@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Proyectos</h1>
+
+<div id="proyectos">
+  <% @proyectos.each do |proyecto| %>
+    <%= render proyecto %>
+    <p>
+      <%= link_to "Show this proyecto", proyecto %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New proyecto", new_proyecto_path %>

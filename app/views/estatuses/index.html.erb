@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Estatuses</h1>
+
+<div id="estatuses">
+  <% @estatuses.each do |estatus| %>
+    <%= render estatus %>
+    <p>
+      <%= link_to "Show this estatus", estatus %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New estatus", new_estatus_path %>

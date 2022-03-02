@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codigo: 1
+  fecha_inicio: 2022-03-02
+  name: MyString
+  valor: 9.99
+  descripion: MyText
+  cliente: one
+  estatus: one
+
+two:
+  codigo: 1
+  fecha_inicio: 2022-03-02
+  name: MyString
+  valor: 9.99
+  descripion: MyText
+  cliente: two
+  estatus: two

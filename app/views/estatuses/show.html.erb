@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @estatus %>
+
+<div>
+  <%= link_to "Edit this estatus", edit_estatus_path(@estatus) %> |
+  <%= link_to "Back to estatuses", estatuses_path %>
+
+  <%= button_to "Destroy this estatus", @estatus, method: :delete %>
+</div>
